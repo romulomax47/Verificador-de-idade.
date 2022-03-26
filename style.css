@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: rgb(93, 93, 212);
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main{
+    background: white;
+    height: 90vh;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 0.5em;
+
+}
+
+header, h1{
+    color:blue;
+}
+section, div,.ano{
+    font-weight: bold;
+}
